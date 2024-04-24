@@ -21,7 +21,7 @@ The main target of this project is to practice writing low level drivers and int
 
 ### Application Layer
 
-- **main.c**: Main application file that initializes the system, configures peripherals, and orchestrates the lamp control logic.
+- **main.c**: Main application file that initializes the system, configures peripherals, and the lamp control logic.
 
 ## Functionality
 
@@ -29,5 +29,5 @@ The application allows users to control a lamp wirelessly using Bluetooth:
 - The Bluetooth module driver handles communication between the microcontroller and the Bluetooth module.
 - Upon receiving commands via Bluetooth, the application toggles the relay to turn the lamp on or off.
 - Lamp status is displayed on the LCD screen using the LCD driver.
-- LED indicators provide visual feedback on the system's state (lamp status).
+- LED indicator provide visual feedback on the system's state (lamp status).
 
